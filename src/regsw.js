@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   const swAllowedHostnames = ["localhost", "127.0.0.1", "10.0.0.1"];
   async function registerSW() {
     console.debug('registering sws...')
-    const wispserver = "https://nebulaproxy.io/wisp/";
+    const wispserver = "ws://nebulaproxy.io/wisp/";
     if (
       location.protocol !== "https:" &&
       !swAllowedHostnames.includes(location.hostname)
