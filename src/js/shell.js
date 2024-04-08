@@ -125,5 +125,5 @@ appsL.addEventListener("click", () => {
 // }
 
 document.getElementById("power").addEventListener("click", () => {
-    new WIN("(link)[http://localhost:8080/resources/h.mp4]", "(icn)[./terbium.png]", "(title)[Quar?]", "(os)[true]", "(full)[true]", "(appname)[youtube]");    
+    new WIN("(link)[/resources/h.mp4]", "(icn)[./terbium.png]", "(title)[Quar?]", "(os)[true]", "(full)[true]", "(appname)[youtube]");    
 })
